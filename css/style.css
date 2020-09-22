@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*--header--*/
+.progress{
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 0%;
+  height: 3px;
+  background-color: rgb(9, 204, 238);
+  z-index: 495;
+}
+/*-first-*/
+.first{
+  background-image: url('../img/fitnes1.jpg');
+  height: 130vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.first img{
+  position: absolute;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top:7vh;
+  left:10vw;
+}
+
+
+
+
+
+
+/*--footer--*/
+footer{
+  height: 20vh;
+  padding:5vh;
+  text-align: center;
+}
