@@ -31,15 +31,162 @@
   margin-top:7vh;
   left:10vw;
 }
+.first_content{
+  margin-top: 40vh;
+  
+  width: 40vw;
+  padding-left: 5vw;
+ 
+}
+.first_content h2{
+font-size: 4rem;
+font-weight: 700;
+text-transform: uppercase;
+color: orange;
+mix-blend-mode: color-dodge;
+z-index: 33;
+}
 
+.first_content p{
+  color: orange;
+  font-size: 16px;
+  z-index: 33;
+}
+.first_wrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 33;
+}
+.first_form{
+  
+  width: 300px;
+  height: 300px;
+  margin-top: 40vh;
+  padding-left: 0px;
+}
+input{
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: rgba(243, 203, 150, 0.178);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn-warning{
+margin-left:30%;
+}
 
+.first_form h3{
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: orange;
+  
+  }
 
+  .first_form label{
+    color: orange;
+  font-size: 1rem;
+  font-weight: 700;
+  }
 
+  /*=second-*/
+  .second{
+    height: 60vh;
+    margin:10vh auto 20vh auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  iframe{
+    margin-top: 10vh;
+    height: 250px;
+    width: 400px;
+    box-shadow: grey 10px 10px 10px 7px;
+  }
+  .second_content{
+    width: 50vw;
+    margin-top: 10vh;
+  }
+  .second_content h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: orange;
+  }
+  .second_content p{
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+/*-third-*/
+.third{
+  height: 120vh;
+  padding:27vh;
+  background-image: url('../img/spinning-class.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fourth{
+  background-image: url('../img/banyangym3000x1730lite.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fifth{
+  background-image: url('../img/Short-Workouts-Karp-Fitness-Vancouver-1184x671.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.third_content{
+  width: 40vw;
+}
+.third_content h2{
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: orange;
+}
+.third_content p{
+  font-size: 1rem;
+  color: white;
+}
+.left{
+  margin-left: 0px;
+}
 
-
+/*-six-*/
+.sixth{
+  height: 100vh;
+  text-align: center;
+  padding:20vh;
+}
+.sixth h2{
+  font-size: 4rem;
+  margin-bottom: 10vh;
+}
+.sixth p{
+  font-size: 1.2rem;
+}
+/*-seven-*/
+.seven{
+  height: 120vh;
+  padding:27vh;
+  background-image: url('../img/spinning-class.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.seven_content h3{
+  font-size: 3rem;
+  color: orange;
+  margin-bottom: 10vh;
+}
 /*--footer--*/
 footer{
-  height: 20vh;
-  padding:5vh;
+  height: 5vh;
+  padding:1vh;
   text-align: center;
 }
