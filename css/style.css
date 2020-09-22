@@ -17,6 +17,7 @@
 /*-first-*/
 .first{
   background-image: url('../img/fitnes1.jpg');
+  background-attachment: fixed;
   height: 130vh;
   background-position: center;
   background-size: cover;
@@ -57,6 +58,13 @@ z-index: 33;
   justify-content: space-around;
   flex-wrap: wrap;
   z-index: 33;
+  transform: translate(0px,50%);
+  transition: all 2s ease 0s;
+  opacity: 0;
+}
+.first_wrap.active{
+  transform: translate(0px,0px);
+  opacity: 1;
 }
 .first_form{
   
@@ -119,6 +127,26 @@ margin-left:30%;
     font-size: 1.1rem;
     font-weight: 600;
   }
+  .title{
+  transform: translate(0px,50%);
+  transition: all 1s ease 0s;
+  opacity: 0;
+  }
+  .title.active{
+  transform: translate(0px,0px);
+  opacity: 1;
+  }
+  .title_p{
+  transform: translate(0px,50%);
+  transition: all 1s ease .4s;
+  opacity: 0;
+  }
+  .title_p.active{
+    transform: translate(0px,0px);
+    opacity: 1;
+  }
+
+
 /*-third-*/
 .third{
   height: 120vh;
@@ -142,6 +170,7 @@ margin-left:30%;
 }
 .third_content{
   width: 40vw;
+ 
 }
 .third_content h2{
   font-size: 3rem;
@@ -155,8 +184,14 @@ margin-left:30%;
 }
 .left{
   margin-left: 0px;
+  transform: translate(-50%,0px);
+  transition: all 1s ease .4s;
+  opacity: 0;
 }
-
+.left.active{
+  transform: translate(0px,0px);
+  opacity: 1;
+}
 /*-six-*/
 .sixth{
   height: 100vh;
@@ -175,6 +210,7 @@ margin-left:30%;
   height: 120vh;
   padding:27vh;
   background-image: url('../img/spinning-class.jpg');
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -183,6 +219,15 @@ margin-left:30%;
   font-size: 3rem;
   color: orange;
   margin-bottom: 10vh;
+}
+.seven_anim{
+  transform: translate(-50%,0px);
+  transition: all 1s ease 0s;
+  opacity: 0;
+}
+.seven_anim.active{
+  transform: translate(0px,0px);
+  opacity: 1;
 }
 /*--footer--*/
 footer{

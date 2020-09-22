@@ -16,7 +16,7 @@ function progressBar(e){
 
 /*---scrolling effect ---*/
 
-  const animItems=document.querySelectorAll('.anim-items');//added classes in variable
+  const animItems=document.querySelectorAll('.anim-items');//we added classes in variable
   
   if(animItems.length>0){//if thre'is what to scroll
   window.addEventListener('scroll', animOnScroll);
