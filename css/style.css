@@ -16,7 +16,7 @@
 }
 /*-first-*/
 .first{
-  background-image: url('../img/fitnes1.jpg');
+  background-image: url('../img/fitnes1\ \(FILEminimizer\).jpg');
   background-attachment: fixed;
   height: 130vh;
   background-position: center;
@@ -58,7 +58,7 @@ z-index: 33;
   justify-content: space-around;
   flex-wrap: wrap;
   z-index: 33;
-  transform: translate(0px,50%);
+  transform: translate(0px,30%);
   transition: all 2s ease 0s;
   opacity: 0;
 }
@@ -151,22 +151,25 @@ margin-left:30%;
 .third{
   height: 120vh;
   padding:27vh;
-  background-image: url('../img/spinning-class.jpg');
+  background-image: url('../img/spinning-class\ \(FILEminimizer\).jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: darkkhaki;
 }
 .fourth{
-  background-image: url('../img/banyangym3000x1730lite.jpg');
+  background-image: url('../img/banyangym3000x1730lite\ \(FILEminimizer\).jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: cornflowerblue;
 }
 .fifth{
-  background-image: url('../img/Short-Workouts-Karp-Fitness-Vancouver-1184x671.jpg');
+  background-image: url('../img/Short-Workouts-Karp-Fitness-Vancouver-1184x671\ \(FILEminimizer\).jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: black;
 }
 .third_content{
   width: 40vw;
@@ -209,7 +212,7 @@ margin-left:30%;
 .seven{
   height: 120vh;
   padding:27vh;
-  background-image: url('../img/spinning-class.jpg');
+  background-image: url('../img/spinning-class\ \(FILEminimizer\).jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
