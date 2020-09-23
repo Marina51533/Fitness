@@ -220,18 +220,26 @@ margin-left:30%;
   color: orange;
   margin-bottom: 10vh;
 }
-.seven_anim{
-  transform: translate(-50%,0px);
-  transition: all 1s ease 0s;
-  opacity: 0;
-}
-.seven_anim.active{
-  transform: translate(0px,0px);
-  opacity: 1;
-}
+
 /*--footer--*/
 footer{
   height: 5vh;
   padding:1vh;
   text-align: center;
+}
+@media (max-width:1024px) {
+  .text_header {
+      margin-left: 0vw;
+      width: 800px;
+  }
+  .text_header h1 {
+      font-size: 44px;
+  }
+  .header_section p {
+      font-size: 24px;
+  }
+  .btn_tex_header {
+      padding: 12px 50px;
+      font-size: 20px;
+  }
 }
