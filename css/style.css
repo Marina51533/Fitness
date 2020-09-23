@@ -244,6 +244,10 @@ footer{
 }
 
 @media (max-width:640px) {
+  .first_wrap{
+    transform: translate(0px,5%);
+  }
+ 
   .first_content,
   .second_content,
   .third_content,
@@ -265,4 +269,17 @@ footer{
 .first_form{
   margin-top: 10vh;
 }
+}
+@media (max-width:450px){
+  iframe{
+    
+    height: 200px;
+    width: 280px;
+}
+  .first_form{
+width: 280px;
+height: 300px;
+}
+.seven_content h3{
+  font-size: 2rem;
 }
