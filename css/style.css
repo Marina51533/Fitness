@@ -228,18 +228,38 @@ footer{
   text-align: center;
 }
 @media (max-width:1024px) {
-  .text_header {
-      margin-left: 0vw;
-      width: 800px;
+  .first {
+      height: fit-content;
+  
+}
+.second{
+  height: fit-content;
+}
+.sixth{
+  height: fit-content;
+}
+}
+
+@media (max-width:640px) {
+  .first_content,
+  .second_content,
+  .third_content,
+  .sixth-content,
+  .seven_content{
+    width:80vw;
   }
-  .text_header h1 {
-      font-size: 44px;
+  .third,
+  .sixth,
+  .seven{
+   padding-top:30vh;
+   padding-left:5vw;
+   padding-right: 5vw;
   }
-  .header_section p {
-      font-size: 24px;
-  }
-  .btn_tex_header {
-      padding: 12px 50px;
-      font-size: 20px;
-  }
+  .first_content h2{
+    font-size: 3rem;
+  
+}
+.first_form{
+  margin-top: 10vh;
+}
 }
