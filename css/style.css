@@ -244,8 +244,11 @@ footer{
 }
 
 @media (max-width:640px) {
+  .first{
+    height: fit-content;
+  }
   .first_wrap{
-    transform: translate(0px,5%);
+    transform: translate(0px,0px);
   }
  
   .first_content,
