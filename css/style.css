@@ -246,6 +246,7 @@ footer{
 @media (max-width:640px) {
   .first{
     height: fit-content;
+    padding-bottom: 10vh;
   }
   .first_wrap{
     transform: translate(0px,0px);
